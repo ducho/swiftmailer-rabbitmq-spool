@@ -1,0 +1,27 @@
+{
+  "name": "enl/swiftmailer-rabbitmq-spool",
+  "description": "Provides RabbitMQ Spool for Swiftmailer: PHP mailing library",
+  "keywords": ["swiftmailer", "rabbitmq", "spool"],
+  "authors": [{
+    "name": "Alex Panshin",
+    "email": "deadyaga@gmail.com",
+    "role": "Developer"
+  }],
+  "require": {
+    "swiftmailer/swiftmailer": "~5.4",
+    "php": "~5.6|~7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Enl\\Swiftmailer\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Enl\\Swiftmailer\\Test\\": "tests/"
+    }
+  }
+}
